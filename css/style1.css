@@ -1,0 +1,110 @@
+body {
+	background-color: lightgrey;
+	/*background-attachment: fixed;*/
+}
+
+.sidebar {
+	background-color: white;
+	/*position: fixed;*/
+	/*height: 600px;*/
+	/*width: 300px;*/
+	left: 5px;
+	top: 0px;
+	border: 1px solid white;
+	-webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+
+.title {
+	padding-top: 65px;
+	text-align: center;
+	/*position: fixed;*/
+}
+
+.menubar {
+    padding-top: 17.5px;
+    font-size: 20px;
+    padding-bottom: 17.5px;
+}
+
+ul {
+	padding: 0px;
+	margin: 0;
+}
+
+.menubar ul {
+	background-color: white;
+	/*list-style-type: none;*/
+	overflow: hidden;
+}
+
+.textbox {
+	height: 100px;
+	background-color: white;
+	overflow: auto;
+}
+
+.textboxTotal {
+	background-color: white;
+}
+
+tbody {
+	height: 300px;
+	overflow: auto;
+}
+
+input[type="text"] {
+	placeholder: "add a course";
+	border: 0px solid black;
+	display: inline-block;
+	height: 100%;
+	width: 100%;
+ 	padding: 0;
+  	margin-bottom: 0;
+  	font-size: 14px;
+  	line-height: 20px;
+  	color: #555555;
+  	vertical-align: inherit;
+  	-webkit-border-radius: 0px;
+  	-moz-border-radius: 0px;
+  	border-radius: 0px;
+}
+
+.tableSet {
+	padding-top: 5px;
+	border: 1px solid black;
+	width: 100%;
+}
+
+.tableSet, th, td {
+	min-width: 15px;
+	border: 2px solid black;
+	text-align: center;
+}
+
+.menubar > ul > li {
+	background-color: lightblue;
+	border: 1px solid white;
+	color: white;
+/*	display: inline;
+	float: center;*/
+	padding-top: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-bottom: 5px;
+}
+
+.menubar > ul > li > a {
+	color: #0088cc;
+	color: white;
+	text-decoration: none;
+}
+
+.menubar > ul > li > a:hover {
+	color:  #0088cc;
+}
+
+.paddinglarge-top {
+	padding-top: 50px;
+}
